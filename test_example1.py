@@ -1,6 +1,6 @@
 import re, time
 from playwright.sync_api import Playwright, sync_playwright, expect
-# import os
+
 
 def run(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=True, slow_mo=1000)
